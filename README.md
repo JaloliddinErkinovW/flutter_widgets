@@ -1,9 +1,19 @@
-# flutter_widgets
-I have created 2 dart files. 1st one, 'main.dart' files is used to run the application and all other things (widgets) are in 2nd, 'widgets.dart' file.
+# WidgetsPractice
 
-We have 4 widgets:
-  Greetings widget prints out the text given as a parameter on the application.
+A new Flutter project created with FlutLab - https://flutlab.io
 
-  Counter widget makes a button which increments the number of counts (which is also printed out on the application with calling the widget).
+## Getting Started
 
-  Root, Header and Counter widgets are connected as a tree with 3 levels. Whenever Root widget is called, it calls header and counter widgets also.
+A few resources to get you started if this is your first Flutter project:
+
+- https://flutter.dev/docs/get-started/codelab
+- https://flutter.dev/docs/cookbook
+
+For help getting started with Flutter, view our
+https://flutter.dev/docs, which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
+## Getting Started: FlutLab - Flutter Online IDE
+
+- How to use FlutLab? Please, view our https://flutlab.io/docs
+- Join the discussion and conversation on https://flutlab.io/residents
