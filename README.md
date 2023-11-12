@@ -1,19 +1,10 @@
 # WidgetsPractice
 
-A new Flutter project created with FlutLab - https://flutlab.io
+There are two dart files, 'main.dart' which is responsible for running the app and 'widgets.dart' which contains all the widgets.
 
-## Getting Started
+Brief information about 3 widgets:
+  Greeting widget prints out the text which is given as a parametes on the application page.
 
-A few resources to get you started if this is your first Flutter project:
+  Counter widget makes a button which increments the number of counts (text which is printed out with the button while calling the widget) by each click.
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
-
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Getting Started: FlutLab - Flutter Online IDE
-
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+  Root widget makes a tree (level 3) of widgets (root widget, header widget and counter widget). Whenever the widget is called, it calls other 2 widgets (header and counter widgets). 
